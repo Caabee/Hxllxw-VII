@@ -1,0 +1,41 @@
+@media (max-width: 600px) {
+
+    .socials-container {
+            display: grid;
+            transform: translateX(0px);
+            padding: 3em;
+            grid-gap: 1.5em;
+            grid-template-columns: repeat(auto-fit, minmax(90px, 1fr)) ;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 25px;
+        background-color: #fff;
+        border-radius: 10px;
+        margin: 20px;
+        width: 280px;
+        height: 310px;
+        position: relative;
+    }
+
+    .socials-container a {
+        background-color: #fff;
+        padding: 1em;
+        border-radius: 20px;
+        height: 72px;
+        width: 120px;
+        box-sizing: border-box;
+        flex-shrink: 0;
+        display: grid;
+        place-items: center;
+        box-shadow: rgba(255, 255, 255, 0.3) 0px 19px 38px, rgba(255, 255, 255, 0.22) 0px 15px 12px;
+    }
+
+    .water-mark {
+        margin-top: -35px;
+    }
+  }
