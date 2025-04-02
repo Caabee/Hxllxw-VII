@@ -1,0 +1,17 @@
+.last-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 95px;
+}
+
+.last-relese-text p {
+    font-size: 35px;
+    color: #fff;
+}
+
+.last-release iframe {
+width: 350px;
+}

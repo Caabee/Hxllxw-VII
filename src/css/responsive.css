@@ -35,7 +35,11 @@
         box-shadow: rgba(255, 255, 255, 0.3) 0px 19px 38px, rgba(255, 255, 255, 0.22) 0px 15px 12px;
     }
 
+    .last-container{
+        margin-top: 10px;
+    }
+
     .water-mark {
-        margin-top: -35px;
+        margin-top: 25px;
     }
   }
